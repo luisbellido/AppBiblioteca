@@ -1,0 +1,31 @@
+<resources>
+
+    //login
+    <string name="app_name">San Juan Masias</string>
+    <string name="LabelUsuario">Usuario:</string>
+    <string name="LabelContraseña">Contraseña:</string>
+    <string name="ButtonInicio">Iniciar Sesion</string>
+    <string name="ButtonRegistrar">Regitrar Nuevo Usuario</string>
+    //End Login
+
+
+    //Catalogo libros
+    <string name="activitycatalogo">Catalogo de libros</string>
+    <string name="LabelFiltro">Categoria:</string>
+    <string name="LabelAutor">Autor:</string>
+    <string name="LabelLibro">Libro:</string>
+    //End Catalogo Libros
+    
+    //Registro de Usuario
+    <string name="activityNuevoUsuario">Registrar Nuevo Usuario</string>
+    <string name="LabelDNI">DNI:</string>
+    <string name="LabelNombres">Nombres:</string>
+    <string name="LabelApePat">Apellido Paterno:</string>
+    <string name="LabelApeMat">Apellido Materno:</string>
+    <string name="LabelPassword">Contraseña:</string>
+    //End Registro de Usuario
+    
+    
+    
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrar_usuario">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:src="@drawable/registrarusuario"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:text="@string/LabelDNI"/>
+
+        <EditText
+            android:id="@+id/IDdni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:text="@string/LabelNombres"/>
+
+        <EditText
+            android:id="@+id/IDnombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:text="@string/LabelApePat"/>
+
+        <EditText
+            android:id="@+id/idapepat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:text="@string/LabelApeMat"/>
+
+        <EditText
+            android:id="@+id/idapemat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:text="@string/LabelPassword"/>
+
+        <EditText
+            android:id="@+id/idpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/botonregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:text="@string/ButtonRegistrar"/>
+
+        <Button
+            android:id="@+id/botoncancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/MargenRight"
+            android:layout_marginStart="@dimen/MargenLeft"
+            android:layout_marginTop="@dimen/MargenTop"
+            android:layout_marginBottom="@dimen/MargenTop"
+            android:text="Cancelar"/>
+
+    </LinearLayout>
+
+</ScrollView>

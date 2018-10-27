@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MargenTop">12dp</dimen>
+    <dimen name="MargenLeft">24dp</dimen>
+    <dimen name="MargenRight">24dp</dimen>
+</resources>
